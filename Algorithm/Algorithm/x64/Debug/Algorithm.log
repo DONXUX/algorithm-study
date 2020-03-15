@@ -1,4 +1,3 @@
-﻿  mian.cpp
-  sub.cpp
-  코드를 생성하고 있습니다...
-  Algorithm.vcxproj -> D:\Algorithm\algorithm-study\Algorithm\x64\Debug\Algorithm.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Algorithm.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Algorithm.vcxproj -> D:\Algorithm\algorithm-study\Algorithm\x64\Debug\16958 텔레포트.exe
