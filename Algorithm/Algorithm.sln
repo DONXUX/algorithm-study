@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16958 텔레포트", "Algor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swea 6782 현주가 좋아하는 제곱근 놀이", "swea 6782 현주가 좋아하는 제곱근 놀이\swea 6782 현주가 좋아하는 제곱근 놀이.vcxproj", "{B7DDA6D7-F4C3-4CDE-859E-F0F5F5D2F454}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swea 4112 이상한 피라미드 탐험", "swea 4112 이상한 피라미드 탐험\swea 4112 이상한 피라미드 탐험.vcxproj", "{A66DA394-F5D0-4B3A-9E78-654A958E57D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B7DDA6D7-F4C3-4CDE-859E-F0F5F5D2F454}.Release|x64.Build.0 = Release|x64
 		{B7DDA6D7-F4C3-4CDE-859E-F0F5F5D2F454}.Release|x86.ActiveCfg = Release|Win32
 		{B7DDA6D7-F4C3-4CDE-859E-F0F5F5D2F454}.Release|x86.Build.0 = Release|Win32
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Debug|x64.ActiveCfg = Debug|x64
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Debug|x64.Build.0 = Debug|x64
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Debug|x86.Build.0 = Debug|Win32
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Release|x64.ActiveCfg = Release|x64
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Release|x64.Build.0 = Release|x64
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Release|x86.ActiveCfg = Release|Win32
+		{A66DA394-F5D0-4B3A-9E78-654A958E57D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
