@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <string>
-#include <queue>
+#include <vector>
 using namespace std;
 int dx[] = { -1, 1, 0, 0 };
 int dy[] = { 0, 0 ,-1, 1 };
@@ -20,21 +20,12 @@ int map[12][6];
 bool visited[12][6];
 vector<pair<int, int>> route;
 
-bool compare(const int &a, const int &b) {
-	if (a == BLANK)
-		return a < b;
-	if (b == BLANK)
-		return b < a;
-}
-
 void down() {
 	for (int i = 0; i < 6; i++) {
 		int tmp[12];
 		for (int j = 11; j >= 0; j--) {
-			if (map[j][i] == BLANK) {
-				continue;
-			}
-			for (int k = 11; k >= j; k--) {
+			if (map[j][i] == BLANK) continue;
+			for (int k = 11; k > j; k--) {
 				if (map[k][i] != BLANK) continue;
 				map[k][i] = map[j][i];
 				map[j][i] = BLANK;
@@ -45,26 +36,16 @@ void down() {
 }
 
 
-bool bomb(int x, int y, int cnt) {
-	if (cnt == 3) {
-		for (int i = 0; i < route.size(); i++) 
-			map[route[i].first][route[i].second] = BLANK;
-		return true;
-	}
-
+void bomb(int x, int y) {
 	for (int i = 0; i < 4; i++) {
 		int nx = x + dx[i];
 		int ny = y + dy[i];
-		if (nx < 0 || ny < 0 || nx >= 12 || ny >= 6
-			|| visited[nx][ny] || map[nx][ny] != map[x][y]) continue;
+		if (nx < 0 || ny < 0 || nx >= 12 || ny >= 6 || visited[nx][ny] || map[nx][ny] != map[x][y]) continue;
 		visited[nx][ny] = true;
 		route.push_back({ nx, ny });
-		bool isBomb = bomb( nx, ny, cnt + 1 );
+		bomb( nx, ny );
 		visited[nx][ny] = false;
-		route.pop_back();
-		if (isBomb) return true;
 	}
-	return false;
 }
 
 bool cycle() {
@@ -72,11 +53,16 @@ bool cycle() {
 	for (int i = 11; i >= 0; i--) {
 		for (int j = 0; j < 6; j++) {
 			if (map[i][j] == BLANK) continue;
-			route.push_back({ i, j });
 			visited[i][j] = true;
-			if(bomb(i, j, 0)) bombCnt++;
-			route.pop_back();
+			route.push_back({ i, j });
+			bomb(i, j);
+			if (route.size() >= 4) {
+				for (int i = 0; i < route.size(); i++)
+					map[route[i].first][route[i].second] = BLANK;
+				bombCnt++;
+			}
 			visited[i][j] = false;
+			route.clear();
 		}
 	}
 	if (bombCnt) down();
