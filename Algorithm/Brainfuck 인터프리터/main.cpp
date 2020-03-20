@@ -10,6 +10,7 @@ const int MAX = 50000000;
 int m, c, i;
 string sc, si;
 
+// 점프 포인트를 생성합니다.
 void setLoop() {
 	int top = -1;
 	for (int i = 0; i < c; i++) {
@@ -33,10 +34,11 @@ void input() {
 
 string solve() {
 	input();
-	
 	setLoop();
 	bool flag = false;
 	int cnt = 0, sp = 0, mp = 0, ip = 0, max_sp = 0;
+
+	// 명령이 5천만번 이상 수행 된다면 무한루프로 간주합니다.
 	for (cnt = 0; cnt < MAX; cnt++) {
 		if (sp >= c) {
 			flag = true;
