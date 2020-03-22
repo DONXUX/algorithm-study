@@ -1,14 +1,14 @@
 #include <iostream>
 #include <queue>
+#include <algorithm>
+#include <vector>
 using namespace std;
-
-const int INF = 99999999;
 
 bool visited[100001];
 int parent[100001];
 vector<int> path;
 
-int n, k, min_cnt = INF, time;
+int n, k, time;
 
 void bfs(void) {
 	queue<pair<int, int>> q;
@@ -18,6 +18,8 @@ void bfs(void) {
 		int cnt = q.front().second;
 		q.pop();
 
+		// Disjoint Set
+		// Path에 경로를 저장한다.
 		if (x == k) {
 			time = cnt;
 			int idx = x;
