@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17071 숨바꼭질 5", "170
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList", "LinkedList\LinkedList.vcxproj", "{B702BBD8-8236-4BBE-BD99-B128C3A40837}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1915 가장 큰 정사각형", "1915 가장 큰 정사각형\1915 가장 큰 정사각형.vcxproj", "{4BE964E5-DE78-49E5-A31A-E9063645E285}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{B702BBD8-8236-4BBE-BD99-B128C3A40837}.Release|x64.Build.0 = Release|x64
 		{B702BBD8-8236-4BBE-BD99-B128C3A40837}.Release|x86.ActiveCfg = Release|Win32
 		{B702BBD8-8236-4BBE-BD99-B128C3A40837}.Release|x86.Build.0 = Release|Win32
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Debug|x64.ActiveCfg = Debug|x64
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Debug|x64.Build.0 = Debug|x64
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Debug|x86.Build.0 = Debug|Win32
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Release|x64.ActiveCfg = Release|x64
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Release|x64.Build.0 = Release|x64
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Release|x86.ActiveCfg = Release|Win32
+		{4BE964E5-DE78-49E5-A31A-E9063645E285}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
