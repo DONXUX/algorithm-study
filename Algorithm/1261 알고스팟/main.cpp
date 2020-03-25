@@ -11,37 +11,41 @@ int dx[] = { -1,1,0,0 };
 int dy[] = { 0,0,1,-1 };
 
 int n, m;
-bool map[MAX][MAX];
-bool visited[MAX][MAX][MAX];
-int prev_cnt;
-int min_wall = INF;
+int map[MAX][MAX];
+int dist[MAX][MAX];
 
 struct pos {
-	int x, y, wall;
+	int x, y;
 };
 
+// 다익스트라
 void bfs(void) {
 	queue<pos> q;
-	q.push({ 0,0,0 });
-	visited[0][0][0] = true;
+	q.push({ 0,0 });
+	dist[0][0] = 0;
+
 	while (!q.empty()) {
 		int x = q.front().x;
 		int y = q.front().y;
-		int wall = q.front().wall;
 		q.pop();
-
-		if (x == n - 1 && y == m - 1)
-			min_wall = min(min_wall, wall);
 
 		for (int i = 0; i < 4; i++) {
 			int nx = x + dx[i];
 			int ny = y + dy[i];
-			int nwall;
 			if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
-			nwall = wall + map[nx][ny];
-			if (visited[nx][ny][nwall]) continue;
-			visited[nx][ny][nwall] = true;
-			q.push({ nx, ny, nwall });
+
+			if (map[nx][ny] == 1) {
+				if (dist[nx][ny] > dist[x][y] + 1) {
+					dist[nx][ny] = dist[x][y] + 1;
+					q.push({ nx, ny });
+				}
+			}
+			else if (map[nx][ny] == 0) {
+				if (dist[nx][ny] > dist[x][y]) {
+					dist[nx][ny] = dist[x][y];
+					q.push({ nx, ny });
+				}
+			}
 		}
 	}
 }
@@ -51,8 +55,10 @@ void input(void) {
 	for (int i = 0; i < n; i++) {
 		string s;
 		cin >> s;
-		for (int j = 0; j < m; j++)
+		for (int j = 0; j < m; j++) {
 			map[i][j] = s[j] - '0';
+			dist[i][j] = INF;
+		}
 	}
 }
 
@@ -60,7 +66,7 @@ int solve(void) {
 	input();
 	bfs();
 	
-	return min_wall;
+	return dist[n - 1][m - 1];
 }
 
 int main(void) {
