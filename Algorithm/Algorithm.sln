@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1261 알고스팟", "1261 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17406 배열 돌리기 4", "17406 배열 돌리기 4\17406 배열 돌리기 4.vcxproj", "{1ECCB88B-7355-4BFB-9F4B-E830D10164D2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2206 벽 부수고 이동하기", "2206 벽 부수고 이동하기\2206 벽 부수고 이동하기.vcxproj", "{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{1ECCB88B-7355-4BFB-9F4B-E830D10164D2}.Release|x64.Build.0 = Release|x64
 		{1ECCB88B-7355-4BFB-9F4B-E830D10164D2}.Release|x86.ActiveCfg = Release|Win32
 		{1ECCB88B-7355-4BFB-9F4B-E830D10164D2}.Release|x86.Build.0 = Release|Win32
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Debug|x64.ActiveCfg = Debug|x64
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Debug|x64.Build.0 = Debug|x64
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Debug|x86.Build.0 = Debug|Win32
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Release|x64.ActiveCfg = Release|x64
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Release|x64.Build.0 = Release|x64
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Release|x86.ActiveCfg = Release|Win32
+		{E2FDB708-B3A9-4F41-B13C-470FFDD856DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
