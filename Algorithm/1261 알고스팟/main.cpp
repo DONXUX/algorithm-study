@@ -25,7 +25,7 @@ void bfs(void) {
 	dist[0][0] = 0;
 
 	while (!q.empty()) {
-		int x = q.front().x;
+		int x = q.front().x;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 		int y = q.front().y;
 		q.pop();
 
