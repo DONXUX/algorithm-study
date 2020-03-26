@@ -5,8 +5,8 @@ int dx[] = { 0,0,-1,1 };
 int dy[] = { -1,1,0,0 };
 
 int n, m;
-bool map[1001][1001];
-bool visited[1001][1001][2];
+bool map[1000][1000];
+bool visited[1000][1000][2];
 
 struct pos {
 	int x, y, cnt;
