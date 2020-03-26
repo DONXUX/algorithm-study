@@ -21,11 +21,12 @@ int solve(void) {
 	for (int i = 1; i < n; i++) {
 		int tmp_dp[1000][2];
 
+		// max(위, 왼쪽)
 		tmp_dp[0][0] = dp[i - 1][0] + map[i][0];
 		for (int j = 1; j < m; j++) 
 			tmp_dp[j][0] = max(dp[i - 1][j], tmp_dp[j - 1][0]) + map[i][j];
 		
-
+		// max(위, 오른쪽)
 		tmp_dp[m - 1][1] = dp[i - 1][m - 1] + map[i][m - 1];
 		for (int j = m - 2; j >= 0; j--) 
 			tmp_dp[j][1] = max(dp[i - 1][j], tmp_dp[j + 1][1]) + map[i][j];
