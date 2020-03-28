@@ -73,7 +73,9 @@ int solve(void) {
 }
 
 void input(void) {
-	memset(map, '.', sizeof(char) * 102 * 102);
+	for (int i = 0; i <= h + 1; i++)
+		for (int j = 0; j <= w + 1; j++)
+			map[i][j] = '.';
 	p.clear();
 	cin >> h >> w;
 	for (int i = 1; i <= h; i++) {
