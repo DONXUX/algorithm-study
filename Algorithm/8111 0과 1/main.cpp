@@ -1,73 +1,50 @@
-
 #include <iostream>
-#include <vector>
 #include <queue>
-#include <string.h>
-#include <string>
-#include <map>
-#define FAIL "BARK"
-#define MAX 20001
-
+#include <vector>
+#include <stack>
 using namespace std;
-//자료 구조 선언
-map<int, char> numByRemain;
-bool visited[MAX];
-int parents[MAX];
+
 int n;
 
-//탐색 진행
-void bfs() {
-    queue<int> q;
-    q.push(1);
-    parents[1] = -1;
-    visited[1] = true;
-    numByRemain[1] = '1';
-    while (!q.empty()) {
-        int current = q.front();
-        q.pop();
-        int newNums[2];
-        //후보 생성
-        newNums[0] = (current * 10) % n;
-        newNums[1] = (current * 10 + 1) % n;
-        for (int i = 0; i < 2; i++) {
-            int newNum = newNums[i];
-            if (visited[newNum])
-                continue;
-            //나머지를 위해 덧붙인 수 라벨링
-            numByRemain[newNum] = i + '0';
-            //부모 정보 저장
-            parents[newNum] = current;
+string solve(void) {
+	if (n == 1) return "1";
+	queue<int> q;
+	vector<pair<int, int>> chk(20000, { -1, -1 });
+	q.push(1); chk[1] = { 1, -1 };
 
-            if (newNum == 0)
-                return;
+	while (!q.empty()) {
+		int num = q.front(); q.pop();
+		
+		int newNum[2] = { (num * 10) % n, (num * 10 + 1) % n };
+		for (int i = 0; i < 2; i++) 
+			if (chk[newNum[i]].first == -1) chk[newNum[i]] = { i, num }, q.push(newNum[i]);
+		if (!newNum[0] || !newNum[1]) break;
+	}
 
-
-            visited[newNum] = true;
-            q.push(newNum);
-        }
-
-    }
-}
-//출력을 위한 깊이우선 탐색
-void print(int num) {
-    if (num == -1) {
-        return;
-    }
-    print(parents[num]);
-    cout << numByRemain[num];
+	stack<int> s;
+	for (int i = 0; i != -1; i = chk[i].second)
+		s.push(chk[i].first);
+	string str;
+	if ((int)s.size() > 100) str = "BRAK";
+	else while (s.size()) 
+		str.push_back(s.top() + '0'), s.pop();
+	return str;
 }
 
+void input(void) {
+	cin >> n;
+}
 
 int main(void) {
-    int t;
-    cin >> t;
-    for (int i = 0; i < t; i++) {
-        cin >> n;
-        memset(visited, false, sizeof(visited));
-        bfs();
-        print(0);
-        cout << endl;
-    }
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
 
-    return 0;
+	int t;
+	cin >> t;
+	while (t--) {
+		input();
+		cout << solve() << '\n';
+	}
+
+	return 0;
 }
