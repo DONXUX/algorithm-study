@@ -10,7 +10,8 @@ int ranks[1000001];
 int findSet(int u) {
 	// 루트노드이면
 	if (parent[u] == u) return u;
-	return parent[u];
+	// 경로 압축
+	return parent[u] = findSet(parent[u]);
 }
 
 string sameSet(void) {
