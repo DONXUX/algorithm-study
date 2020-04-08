@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2151 거울 설치", "2151 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1339 단어수학", "1339 단어수학\1339 단어수학.vcxproj", "{A0C29364-05D1-4C0F-A25B-16010F51CDA2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16940 BFS 스폐셜 저지", "BFS 스폐셜 저지\BFS 스폐셜 저지.vcxproj", "{DFE71FBD-1AB3-4713-9F2F-B422D846626E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{A0C29364-05D1-4C0F-A25B-16010F51CDA2}.Release|x64.Build.0 = Release|x64
 		{A0C29364-05D1-4C0F-A25B-16010F51CDA2}.Release|x86.ActiveCfg = Release|Win32
 		{A0C29364-05D1-4C0F-A25B-16010F51CDA2}.Release|x86.Build.0 = Release|Win32
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Debug|x64.ActiveCfg = Debug|x64
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Debug|x64.Build.0 = Debug|x64
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Debug|x86.ActiveCfg = Debug|Win32
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Debug|x86.Build.0 = Debug|Win32
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Release|x64.ActiveCfg = Release|x64
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Release|x64.Build.0 = Release|x64
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Release|x86.ActiveCfg = Release|Win32
+		{DFE71FBD-1AB3-4713-9F2F-B422D846626E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
