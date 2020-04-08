@@ -26,9 +26,7 @@ int bfs(void) {
 			s.insert(next);
 		}
 		for (int i = idx; i < idx + s.size(); i++) {
-			if (s.count(result[i]) == 0) {
-				return 0;
-			}
+			if (s.count(result[i]) == 0) return 0;
 			else q.push(result[i]);
 		}
 		idx += s.size();
