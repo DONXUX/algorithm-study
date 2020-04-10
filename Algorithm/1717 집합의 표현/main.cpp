@@ -4,14 +4,14 @@ using namespace std;
 
 int n, m, kind, a, b;
 
-int parent[1000001];
+int parents[1000001];
 int ranks[1000001];
 
 int findSet(int u) {
 	// 루트노드이면
-	if (parent[u] == u) return u;
+	if (parents[u] == u) return u;
 	// 경로 압축
-	return parent[u] = findSet(parent[u]);
+	return parents[u] = findSet(parents[u]);
 }
 
 string sameSet(void) {
@@ -27,7 +27,7 @@ string unionSet(void) {
 
 	// 집합들의 높이가 다르면 rank가 높은 집합이 부모가 됨.
 	if (ranks[a] > ranks[b]) swap(a, b);
-	parent[a] = b;
+	parents[a] = b;
 
 	if (ranks[a] == ranks[b]) ranks[b]++;
 	return "";
@@ -46,7 +46,7 @@ void input(void) {
 
 void init(void) {
 	for (int i = 0; i <= n; i++) {
-		parent[i] = i;
+		parents[i] = i;
 		ranks[i] = 1;
 	}
 }

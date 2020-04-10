@@ -5,7 +5,7 @@
 using namespace std;
 
 bool visited[100001];
-int parent[100001];
+int parents[100001];
 vector<int> path;
 
 int n, k, time;
@@ -25,7 +25,7 @@ void bfs(void) {
 			int idx = x;
 			while (idx != n) {
 				path.push_back(idx);
-				idx = parent[idx];
+				idx = parents[idx];
 			}
 			path.push_back(idx);
 			reverse(path.begin(), path.end());
@@ -42,7 +42,7 @@ void bfs(void) {
 
 			if (nx < 0 || nx >= 100001 || visited[nx]) continue;
 			visited[nx] = true;
-			parent[nx] = x;
+			parents[nx] = x;
 			q.push({ nx, cnt + 1 });
 		}
 
