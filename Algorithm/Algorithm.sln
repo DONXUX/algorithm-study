@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16964 DFS 스페셜 저지"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16957 체스판 위의 공", "16957 체스판 위의 공\16957 체스판 위의 공.vcxproj", "{1683A36C-0268-476E-988F-7D15CC725633}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9944 NxM 보드 완주하기", "NxM 보드 완준하기\NxM 보드 완준하기.vcxproj", "{EF3D0467-82C2-4A5C-A728-821E51BE756D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{1683A36C-0268-476E-988F-7D15CC725633}.Release|x64.Build.0 = Release|x64
 		{1683A36C-0268-476E-988F-7D15CC725633}.Release|x86.ActiveCfg = Release|Win32
 		{1683A36C-0268-476E-988F-7D15CC725633}.Release|x86.Build.0 = Release|Win32
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Debug|x64.ActiveCfg = Debug|x64
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Debug|x64.Build.0 = Debug|x64
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Debug|x86.Build.0 = Debug|Win32
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Release|x64.ActiveCfg = Release|x64
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Release|x64.Build.0 = Release|x64
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Release|x86.ActiveCfg = Release|Win32
+		{EF3D0467-82C2-4A5C-A728-821E51BE756D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
