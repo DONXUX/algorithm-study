@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2651 자동차경주대회"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9328 열쇠", "9328 열쇠\9328 열쇠.vcxproj", "{36EC702E-52D1-4055-BE8E-1C974E254367}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kakao 비밀지도", "kakao 비밀지도\kakao 비밀지도.vcxproj", "{384B960B-DD27-4752-B992-D4131B3C6C44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{36EC702E-52D1-4055-BE8E-1C974E254367}.Release|x64.Build.0 = Release|x64
 		{36EC702E-52D1-4055-BE8E-1C974E254367}.Release|x86.ActiveCfg = Release|Win32
 		{36EC702E-52D1-4055-BE8E-1C974E254367}.Release|x86.Build.0 = Release|Win32
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Debug|x64.ActiveCfg = Debug|x64
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Debug|x64.Build.0 = Debug|x64
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Debug|x86.ActiveCfg = Debug|Win32
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Debug|x86.Build.0 = Debug|Win32
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x64.ActiveCfg = Release|x64
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x64.Build.0 = Release|x64
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x86.ActiveCfg = Release|Win32
+		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
