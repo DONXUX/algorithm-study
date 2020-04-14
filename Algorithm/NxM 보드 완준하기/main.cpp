@@ -67,8 +67,7 @@ void input() {
 }
 
 int main(void) {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
+	ios::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL);
 	int t = 1;
 	while (cin >> n >> m) {
 		input();
