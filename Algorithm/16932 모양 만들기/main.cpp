@@ -6,9 +6,8 @@ int dx[] = { 0, 0, -1, 1 };
 int dy[] = { 1, -1, 0, 0 };
 
 int n, m, tmp_cnt, shape_cnt = 1;
-int map[1000][1000];
+int map[1000][1000], shape[50000];
 bool visited[1000][1000];
-int shape[50000];
 
 bool range(int x, int y) {
 	return x >= 0 && y >= 0 && x < n&& y < m;
