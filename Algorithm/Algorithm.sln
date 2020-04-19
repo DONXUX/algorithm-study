@@ -75,6 +75,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9328 열쇠", "9328 열쇠\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kakao 비밀지도", "kakao 비밀지도\kakao 비밀지도.vcxproj", "{384B960B-DD27-4752-B992-D4131B3C6C44}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17825 주사위 윷놀이", "17825 주사위 윷놀이\17825 주사위 윷놀이.vcxproj", "{381480C6-DC23-4C0B-BE96-169C987927CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16932 모양 만들기", "16932 모양 만들기\16932 모양 만들기.vcxproj", "{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -371,6 +375,22 @@ Global
 		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x64.Build.0 = Release|x64
 		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x86.ActiveCfg = Release|Win32
 		{384B960B-DD27-4752-B992-D4131B3C6C44}.Release|x86.Build.0 = Release|Win32
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Debug|x64.ActiveCfg = Debug|x64
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Debug|x64.Build.0 = Debug|x64
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Debug|x86.Build.0 = Debug|Win32
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Release|x64.ActiveCfg = Release|x64
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Release|x64.Build.0 = Release|x64
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Release|x86.ActiveCfg = Release|Win32
+		{381480C6-DC23-4C0B-BE96-169C987927CB}.Release|x86.Build.0 = Release|Win32
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Debug|x64.ActiveCfg = Debug|x64
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Debug|x64.Build.0 = Debug|x64
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Debug|x86.Build.0 = Debug|Win32
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Release|x64.ActiveCfg = Release|x64
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Release|x64.Build.0 = Release|x64
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Release|x86.ActiveCfg = Release|Win32
+		{1EBC84BD-B770-4CA5-AD51-C3CA943CBD4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
