@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2805 나무 자르기", "28
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2343 기타 레슨", "2343 기타 레슨\2343 기타 레슨.vcxproj", "{889D1B67-C81F-4008-A24D-92ABF920F717}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6236 용돈 관리", "6236 용돈 관리\6236 용돈 관리.vcxproj", "{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -471,6 +473,14 @@ Global
 		{889D1B67-C81F-4008-A24D-92ABF920F717}.Release|x64.Build.0 = Release|x64
 		{889D1B67-C81F-4008-A24D-92ABF920F717}.Release|x86.ActiveCfg = Release|Win32
 		{889D1B67-C81F-4008-A24D-92ABF920F717}.Release|x86.Build.0 = Release|Win32
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Debug|x64.ActiveCfg = Debug|x64
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Debug|x64.Build.0 = Debug|x64
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Debug|x86.Build.0 = Debug|Win32
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Release|x64.ActiveCfg = Release|x64
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Release|x64.Build.0 = Release|x64
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Release|x86.ActiveCfg = Release|Win32
+		{4E6DC7F7-FB5E-44C9-B1A4-E6FC4C9FCAC5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
