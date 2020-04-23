@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1654 랜선 자르기", "16
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2110 공유기 설치", "2110 공유기 설치\2110 공유기 설치.vcxproj", "{66C29D98-375F-4EA9-BDA3-16988805D748}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1300 K번째 수", "1300 K번째 수\1300 K번째 수.vcxproj", "{95EC253A-98B6-4E69-BBD9-46B6F76A0641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{66C29D98-375F-4EA9-BDA3-16988805D748}.Release|x64.Build.0 = Release|x64
 		{66C29D98-375F-4EA9-BDA3-16988805D748}.Release|x86.ActiveCfg = Release|Win32
 		{66C29D98-375F-4EA9-BDA3-16988805D748}.Release|x86.Build.0 = Release|Win32
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Debug|x64.ActiveCfg = Debug|x64
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Debug|x64.Build.0 = Debug|x64
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Debug|x86.ActiveCfg = Debug|Win32
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Debug|x86.Build.0 = Debug|Win32
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Release|x64.ActiveCfg = Release|x64
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Release|x64.Build.0 = Release|x64
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Release|x86.ActiveCfg = Release|Win32
+		{95EC253A-98B6-4E69-BBD9-46B6F76A0641}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
