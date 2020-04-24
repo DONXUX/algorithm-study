@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1300 K번째 수", "1300 K�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11049 행렬 곱셈 순서", "11049 행렬 곱셈 순서\11049 행렬 곱셈 순서.vcxproj", "{85CA3229-9402-4744-AD4F-7DF3CA7E8E6D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16434 드래곤 앤 던전", "16434 드래곤 앤 던전\16434 드래곤 앤 던전.vcxproj", "{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -521,6 +523,14 @@ Global
 		{85CA3229-9402-4744-AD4F-7DF3CA7E8E6D}.Release|x64.Build.0 = Release|x64
 		{85CA3229-9402-4744-AD4F-7DF3CA7E8E6D}.Release|x86.ActiveCfg = Release|Win32
 		{85CA3229-9402-4744-AD4F-7DF3CA7E8E6D}.Release|x86.Build.0 = Release|Win32
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Debug|x64.ActiveCfg = Debug|x64
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Debug|x64.Build.0 = Debug|x64
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Debug|x86.ActiveCfg = Debug|Win32
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Debug|x86.Build.0 = Debug|Win32
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Release|x64.ActiveCfg = Release|x64
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Release|x64.Build.0 = Release|x64
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Release|x86.ActiveCfg = Release|Win32
+		{496C973D-6E42-4971-AFA5-0C17DCB7AA3C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
