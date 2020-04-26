@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10473 인간 대포", "1047
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2211 네트워크 복구", "2211 네트워크 복구\2211 네트워크 복구.vcxproj", "{7C8E4E4F-71F5-4A5F-A706-8413AB19811F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16681 등산", "16681 등산\16681 등산.vcxproj", "{8AA311C2-7FE5-4F72-A073-05513F9E04EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{7C8E4E4F-71F5-4A5F-A706-8413AB19811F}.Release|x64.Build.0 = Release|x64
 		{7C8E4E4F-71F5-4A5F-A706-8413AB19811F}.Release|x86.ActiveCfg = Release|Win32
 		{7C8E4E4F-71F5-4A5F-A706-8413AB19811F}.Release|x86.Build.0 = Release|Win32
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Debug|x64.ActiveCfg = Debug|x64
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Debug|x64.Build.0 = Debug|x64
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Debug|x86.Build.0 = Debug|Win32
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Release|x64.ActiveCfg = Release|x64
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Release|x64.Build.0 = Release|x64
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Release|x86.ActiveCfg = Release|Win32
+		{8AA311C2-7FE5-4F72-A073-05513F9E04EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

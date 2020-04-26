@@ -10,7 +10,7 @@ int dx[] = { 0,0,-1,1 };
 int dy[] = { 1,-1,0,0 };
 
 struct pos { int x, y; };
-int n, m, ret;
+int n, m, value;
 char map[102][102];
 bool visited[102][102];
 bool key[26];
@@ -43,7 +43,7 @@ void bfs() {
 					q.push({ p.x, p.y });
 					door[map[nx][ny] - 'a'].pop();
 				}
-			} else if (map[nx][ny] == '$') ret++;
+			} else if (map[nx][ny] == '$') value++;
 			q.push({ nx, ny });
 		}
 	}
@@ -51,7 +51,7 @@ void bfs() {
 
 int solve() {
 	bfs();
-	return ret;
+	return value;
 }
 
 void input() {
@@ -74,7 +74,7 @@ void input() {
 }
 
 void init() {
-	ret = 0;
+	value = 0;
 	memset(visited, false, 102 * 102);
 	for (int i = 0; i < 26; i++) 
 		key[i] = false;
