@@ -157,6 +157,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WILDCARD Wildcard", "WILDCA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRIANGLEPATH 삼각형 위의 최대 경로", "TRIANGLEPATH 삼각형 위의 최대 경로\TRIANGLEPATH 삼각형 위의 최대 경로.vcxproj", "{C2045A96-09D9-475E-A518-9CD884EAE940}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LIS Longest Increasing Sequence", "LIS Longest Increasing Sequence\LIS Longest Increasing Sequence.vcxproj", "{BA250F53-DF2D-4049-9178-F38625998671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -781,6 +783,14 @@ Global
 		{C2045A96-09D9-475E-A518-9CD884EAE940}.Release|x64.Build.0 = Release|x64
 		{C2045A96-09D9-475E-A518-9CD884EAE940}.Release|x86.ActiveCfg = Release|Win32
 		{C2045A96-09D9-475E-A518-9CD884EAE940}.Release|x86.Build.0 = Release|Win32
+		{BA250F53-DF2D-4049-9178-F38625998671}.Debug|x64.ActiveCfg = Debug|x64
+		{BA250F53-DF2D-4049-9178-F38625998671}.Debug|x64.Build.0 = Debug|x64
+		{BA250F53-DF2D-4049-9178-F38625998671}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA250F53-DF2D-4049-9178-F38625998671}.Debug|x86.Build.0 = Debug|Win32
+		{BA250F53-DF2D-4049-9178-F38625998671}.Release|x64.ActiveCfg = Release|x64
+		{BA250F53-DF2D-4049-9178-F38625998671}.Release|x64.Build.0 = Release|x64
+		{BA250F53-DF2D-4049-9178-F38625998671}.Release|x86.ActiveCfg = Release|Win32
+		{BA250F53-DF2D-4049-9178-F38625998671}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
