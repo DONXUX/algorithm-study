@@ -151,6 +151,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11052 카드 구매하기",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10844 쉬운 계단 수", "10844 쉬운 계단 수\10844 쉬운 계단 수.vcxproj", "{FA4C9CFE-56FC-497E-8FCE-E6167E2C27C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JUMPGAME 외발 뛰기", "JUMPGAME 외발 뛰기\JUMPGAME 외발 뛰기.vcxproj", "{1CF663E3-DAED-405F-93F6-E02AAF6317EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -751,6 +753,14 @@ Global
 		{FA4C9CFE-56FC-497E-8FCE-E6167E2C27C6}.Release|x64.Build.0 = Release|x64
 		{FA4C9CFE-56FC-497E-8FCE-E6167E2C27C6}.Release|x86.ActiveCfg = Release|Win32
 		{FA4C9CFE-56FC-497E-8FCE-E6167E2C27C6}.Release|x86.Build.0 = Release|Win32
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Debug|x64.ActiveCfg = Debug|x64
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Debug|x64.Build.0 = Debug|x64
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Debug|x86.Build.0 = Debug|Win32
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Release|x64.ActiveCfg = Release|x64
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Release|x64.Build.0 = Release|x64
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Release|x86.ActiveCfg = Release|Win32
+		{1CF663E3-DAED-405F-93F6-E02AAF6317EC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
