@@ -18,6 +18,6 @@ int main(void) {
 		cin >> n;
 		cout << cache[n] % MOD << endl;
 	}
-
+	               
 	return 0;
 }
