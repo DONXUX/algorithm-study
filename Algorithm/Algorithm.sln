@@ -169,6 +169,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TILING2 타일링", "TILING
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRIPATHCNT 삼각형 위의 최대 경로 수 세기", "TRIPATHCNT 삼각형 위의 최대 경로 수 세기\TRIPATHCNT 삼각형 위의 최대 경로 수 세기.vcxproj", "{29FC1575-1A86-4358-A9E9-EAC17BD0CA11}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SNAIL 달팽이", "SNAIL 달팽이\SNAIL 달팽이.vcxproj", "{581D48B0-5307-4221-B564-3A13CC75F1F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -841,6 +843,14 @@ Global
 		{29FC1575-1A86-4358-A9E9-EAC17BD0CA11}.Release|x64.Build.0 = Release|x64
 		{29FC1575-1A86-4358-A9E9-EAC17BD0CA11}.Release|x86.ActiveCfg = Release|Win32
 		{29FC1575-1A86-4358-A9E9-EAC17BD0CA11}.Release|x86.Build.0 = Release|Win32
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Debug|x64.ActiveCfg = Debug|x64
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Debug|x64.Build.0 = Debug|x64
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Debug|x86.Build.0 = Debug|Win32
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Release|x64.ActiveCfg = Release|x64
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Release|x64.Build.0 = Release|x64
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Release|x86.ActiveCfg = Release|Win32
+		{581D48B0-5307-4221-B564-3A13CC75F1F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
