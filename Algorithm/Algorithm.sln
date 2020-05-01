@@ -173,6 +173,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SNAIL 달팽이", "SNAIL �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASYMTILING 비대칭 타일링", "ASYMTILING 비대칭 타일링\ASYMTILING 비대칭 타일링.vcxproj", "{B7B5BBFC-CB97-407E-8413-BC6352EB1A15}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "POLY 폴리오미노", "POLY 폴리오미노\POLY 폴리오미노.vcxproj", "{4911B55A-592B-4C59-A2F1-F213C9A5FC40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -861,6 +863,14 @@ Global
 		{B7B5BBFC-CB97-407E-8413-BC6352EB1A15}.Release|x64.Build.0 = Release|x64
 		{B7B5BBFC-CB97-407E-8413-BC6352EB1A15}.Release|x86.ActiveCfg = Release|Win32
 		{B7B5BBFC-CB97-407E-8413-BC6352EB1A15}.Release|x86.Build.0 = Release|Win32
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Debug|x64.ActiveCfg = Debug|x64
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Debug|x64.Build.0 = Debug|x64
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Debug|x86.ActiveCfg = Debug|Win32
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Debug|x86.Build.0 = Debug|Win32
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Release|x64.ActiveCfg = Release|x64
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Release|x64.Build.0 = Release|x64
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Release|x86.ActiveCfg = Release|Win32
+		{4911B55A-592B-4C59-A2F1-F213C9A5FC40}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
