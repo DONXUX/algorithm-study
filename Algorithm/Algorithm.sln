@@ -179,6 +179,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NUMB3RS 두니발 박사의
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PACKING 여행 짐 싸기", "PACKING 여행 짐 싸기\PACKING 여행 짐 싸기.vcxproj", "{37CDE53F-8169-4CAB-91AE-8032FFE5E7F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCR 광학 문자 인식", "OCR 광학 문자 인식\OCR 광학 문자 인식.vcxproj", "{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -891,6 +893,14 @@ Global
 		{37CDE53F-8169-4CAB-91AE-8032FFE5E7F3}.Release|x64.Build.0 = Release|x64
 		{37CDE53F-8169-4CAB-91AE-8032FFE5E7F3}.Release|x86.ActiveCfg = Release|Win32
 		{37CDE53F-8169-4CAB-91AE-8032FFE5E7F3}.Release|x86.Build.0 = Release|Win32
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Debug|x64.ActiveCfg = Debug|x64
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Debug|x64.Build.0 = Debug|x64
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Debug|x86.Build.0 = Debug|Win32
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Release|x64.ActiveCfg = Release|x64
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Release|x64.Build.0 = Release|x64
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Release|x86.ActiveCfg = Release|Win32
+		{184C3CB9-D4B0-44FB-933A-8FA3200D8AE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
