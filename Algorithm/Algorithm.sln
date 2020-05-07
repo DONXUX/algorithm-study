@@ -185,6 +185,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MORSE 모스 부호 사전"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MATCHORDER 출전 순서 정하기", "MATCHORDER 출전 순서 정하기\MATCHORDER 출전 순서 정하기.vcxproj", "{C0BA51D0-FA57-4F6D-A64C-76CE872115AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LUNCHBOX Microwaving Lunch Boxes", "LUNCHBOX Microwaving Lunch Boxes\LUNCHBOX Microwaving Lunch Boxes.vcxproj", "{3A7FBC18-0BD4-45DA-A17C-73E02812B245}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "프로그래머스 크레인 인형뽑기 게임", "프로그래머스 크레인 인형뽑기 게임\프로그래머스 크레인 인형뽑기 게임.vcxproj", "{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -921,6 +925,22 @@ Global
 		{C0BA51D0-FA57-4F6D-A64C-76CE872115AB}.Release|x64.Build.0 = Release|x64
 		{C0BA51D0-FA57-4F6D-A64C-76CE872115AB}.Release|x86.ActiveCfg = Release|Win32
 		{C0BA51D0-FA57-4F6D-A64C-76CE872115AB}.Release|x86.Build.0 = Release|Win32
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Debug|x64.ActiveCfg = Debug|x64
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Debug|x64.Build.0 = Debug|x64
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Debug|x86.Build.0 = Debug|Win32
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Release|x64.ActiveCfg = Release|x64
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Release|x64.Build.0 = Release|x64
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Release|x86.ActiveCfg = Release|Win32
+		{3A7FBC18-0BD4-45DA-A17C-73E02812B245}.Release|x86.Build.0 = Release|Win32
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Debug|x64.ActiveCfg = Debug|x64
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Debug|x64.Build.0 = Debug|x64
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Debug|x86.Build.0 = Debug|Win32
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Release|x64.ActiveCfg = Release|x64
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Release|x64.Build.0 = Release|x64
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Release|x86.ActiveCfg = Release|Win32
+		{C1880992-3E79-47FD-8AEC-CAF71A3A8A26}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
