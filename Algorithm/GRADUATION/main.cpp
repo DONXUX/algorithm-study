@@ -13,7 +13,6 @@ int bitCount(int x) {
 	return x % 2 + bitCount(x / 2);
 }
 
-
 int graduate(int semester, int taken) {
 	if (bitCount(taken) >= k) return 0;
 	if (semester >= m) return INF;

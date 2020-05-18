@@ -221,6 +221,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "소수", "소수\소수.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GRADUATION 졸업학기", "GRADUATION\GRADUATION.vcxproj", "{CD76EBBD-0D3D-4717-9E5D-7DBEA7C7AB70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHRISTMAS 크리스마스 인형", "CHRISTMAS 크리스마스 인형\CHRISTMAS 크리스마스 인형.vcxproj", "{06899284-EC9B-405B-ADA0-C91D09C22AEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1101,6 +1103,14 @@ Global
 		{CD76EBBD-0D3D-4717-9E5D-7DBEA7C7AB70}.Release|x64.Build.0 = Release|x64
 		{CD76EBBD-0D3D-4717-9E5D-7DBEA7C7AB70}.Release|x86.ActiveCfg = Release|Win32
 		{CD76EBBD-0D3D-4717-9E5D-7DBEA7C7AB70}.Release|x86.Build.0 = Release|Win32
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Debug|x64.ActiveCfg = Debug|x64
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Debug|x64.Build.0 = Debug|x64
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Debug|x86.Build.0 = Debug|Win32
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Release|x64.ActiveCfg = Release|x64
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Release|x64.Build.0 = Release|x64
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Release|x86.ActiveCfg = Release|Win32
+		{06899284-EC9B-405B-ADA0-C91D09C22AEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
