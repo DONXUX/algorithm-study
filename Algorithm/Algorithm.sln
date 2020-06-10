@@ -229,6 +229,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FENCE 울타리 잘라내�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11404 플로이드", "11404 플로이드\11404 플로이드.vcxproj", "{6140EE66-A477-4B21-9D68-024B0BAFE834}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BRACKETS2 짝이 많지 않는 괄호", "BRACKETS2 짝이 많지 않는 괄호\BRACKETS2 짝이 많지 않는 괄호.vcxproj", "{C9EB8455-7297-4CD2-8E23-FA949483B491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1141,6 +1143,14 @@ Global
 		{6140EE66-A477-4B21-9D68-024B0BAFE834}.Release|x64.Build.0 = Release|x64
 		{6140EE66-A477-4B21-9D68-024B0BAFE834}.Release|x86.ActiveCfg = Release|Win32
 		{6140EE66-A477-4B21-9D68-024B0BAFE834}.Release|x86.Build.0 = Release|Win32
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Debug|x64.ActiveCfg = Debug|x64
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Debug|x64.Build.0 = Debug|x64
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Debug|x86.Build.0 = Debug|Win32
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Release|x64.ActiveCfg = Release|x64
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Release|x64.Build.0 = Release|x64
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Release|x86.ActiveCfg = Release|Win32
+		{C9EB8455-7297-4CD2-8E23-FA949483B491}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
